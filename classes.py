@@ -33,6 +33,43 @@ class Humano(Animal):
         idade = idade
         self.coracao = True
         self.racionalidade = True
+
+    def andar(self):
+        print("")
+        print("  Seu humano andou.")
+        print("")
+    def comer(self):
+        print("")
+        print("  Seu humano comeu.")
+        print("")
+    def urinar(self):
+        print("")
+        print("  Seu humano urinou.")
+        print("")
+    def cagar(self):
+        print("")
+        print("  Seu humano cagou.")
+        print("")
+    def dormir(self):
+        print("")
+        print("  Seu humano dormiu.")
+        print("")
+    def entreter(self):
+        print("")
+        print(" Seu humano se entreteu.")
+        print("")
+    def interagir(self):
+        print("")
+        print("  Seu humano fez uma interação social.")
+        print("")
+    def trabalhar(self):
+        print("")
+        print("  Seu humano trabalhou.")
+        print("")
+    def estudar(self):
+        print("")
+        print("  Seu humano estudou.")
+        print("")
     
 
 class Cachorro(Animal):
@@ -61,19 +98,35 @@ class Cachorro(Animal):
         self.coracao = True
         self.racionalidade = False
 
-    def dormir():
-        pass
-    def urinar():
-        pass
-    def cagar():
-        pass
-    def correr():
-        pass
-    def latir():
-        print('AU AU')
-    def brincar():
-        pass
-    def comer():
-        pass
-    def morder():
-        pass
+    def dormir(self):
+        print("")
+        print("  Zzz... Seu cachorro está dormindo.")
+        print("")
+    def urinar(self):
+        print("")
+        print(f"  Seu cachorro urinou.")
+        print("")
+    def cagar(self):
+        print("")
+        print("  seu cachorro cagou.")
+        print("")
+    def correr(self):
+        print("")
+        print(f"  Seu cachorro correu.")
+        print("")
+    def latir(self):
+        print("")
+        print('  AU AU! Seu cachorro latiu.')
+        print("")
+    def brincar(self):
+        print("")
+        print('  Seu cachorro brincou.')
+        print("")
+    def comer(self):
+        print("")
+        print("  Seu cachorro comeu.")
+        print("")
+    def morder(self):
+        print("")
+        print("  Seu cachorro mordeu.")
+        print("")
